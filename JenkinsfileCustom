@@ -48,7 +48,7 @@ node('nodes'){
  stage('SendEmailNotification')
  {
  
- emailext body: '''Build is over
+// emailext body: '''Build is over
 
  Regards,
  Mithun Technologies,
