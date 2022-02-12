@@ -35,7 +35,7 @@ stage('DeployAppintoTomcatServer')
   
   stage('SendEmailNotification')
   {
-   mail bcc: 'devopstrainingblr@gmail.com', body: '''Build Over..
+ //  mail bcc: 'devopstrainingblr@gmail.com', body: '''Build Over..
 
    Regards,
    Mithun Technologies,
